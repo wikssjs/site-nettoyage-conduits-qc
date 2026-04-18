@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /soumission-nettoyage-conduits/
+Crawl-delay: 2
+
+Sitemap: https://nettoyage-conduits.ca/sitemap-index.xml
