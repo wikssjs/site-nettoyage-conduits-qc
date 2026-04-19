@@ -85,7 +85,7 @@
   <div class="dk-nav__inner">
     <a href="/" class="dk-nav__logo">Nettoyage Conduits</a>
     <div class="dk-nav__right">
-      <a href="#formulaire" class="dk-nav__cta">Obtenir un prix</a>
+      <a href="/soumission-nettoyage-conduits/" target="_blank" rel="noopener sponsored" class="dk-nav__cta">Obtenir un prix</a>
     </div>
   </div>
 </nav>
@@ -599,6 +599,15 @@ if (_form) {
 var _stickyBar = document.getElementById('sticky-bar');
 if (_stickyBar) {
   var _formEl = document.getElementById('formulaire');
+  window.addEventListener('scroll', function() {
+    if (_formEl) {
+      var rect = _formEl.getBoundingClientRect();
+      _stickyBar.style.display = (rect.top < window.innerHeight && rect.bottom > 0) ? 'none' : '';
+    }
+  }, {passive: true});
+}
+</script></body>
+</html>cument.getElementById('formulaire');
   window.addEventListener('scroll', function() {
     if (_formEl) {
       var rect = _formEl.getBoundingClientRect();
