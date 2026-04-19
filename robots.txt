@@ -3,4 +3,4 @@ Allow: /
 Disallow: /soumission-nettoyage-conduits/
 Crawl-delay: 2
 
-Sitemap: https://nettoyage-conduits.ca/sitemap-index.xml
+Sitemap: https://experts-conduits.ca/sitemap-index.xml
